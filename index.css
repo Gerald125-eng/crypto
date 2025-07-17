@@ -129,7 +129,7 @@ nav a:hover{
 }
 
 .overlay-content h1{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .overlay-content {
@@ -460,7 +460,7 @@ nav a:hover{
 
 
 .plans div a{
-    padding: 10px 20px;
+    padding: 8px 20px;
     background: rgb(10, 20, 208);
     border-radius: 5px;
     color: aliceblue;
