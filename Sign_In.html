@@ -1,0 +1,144 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Sign_In.css">
+</head>
+<body>
+
+    <!-- header -->
+  <div class="header">
+
+       <div class="logo">
+          <img src="WhatsApp_Image_2025-07-12_at_03.27.15-removebg-preview.png" alt="">
+       </div>
+
+       <nav>
+        <a href="index.html">Home</a>
+         <a href="about_us.html">About</a>
+         <a href="Sign_In.html">Login</a>
+         <a href="Sign_Up.html">Signup</a>
+         <a href="help.html">Help</a>
+         <a href="contact.html">Contact us</a>
+       </nav>
+
+       <div class="menu">
+          <img src="OIP-removebg-preview (1).png" alt="" class="OIP-removebg">
+          <img src="icons8-close-50.png" alt="" class="icons8-close" class="icons8-close">
+       </div>
+
+  </div>
+
+  <nav class="nav_second">
+         <a href="index.html">Home</a>
+         <a href="about_us.html">About</a>
+         <a href="Sign_In.html">Login</a>
+         <a href="Sign_Up.html">Signup</a>
+         <a href="help.html">Help</a>
+         <a href="contact.html">Contact us</a>
+       </nav>
+
+    <div class="container">
+        <h1 class="">Register With Us</h1>
+        <div class="content">
+            <div class="contact-details">
+                <img src="./_0c78e652-4069-4d16-96c5-e8652db56bb6.jpg" alt="">
+            </div>
+
+           
+            <div class="contact-form">
+
+                <h2>SIGN IN</h2>
+                <br>
+                <br>
+                <form method="POST">
+
+                    <label for="name">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Your username" required>
+
+                    <label for="name">Password</label>
+                    <input type="text" id="password" name="password" placeholder="Your password" required>
+                      <br>
+                      <br>
+                    <ul class="Message">
+                            
+                        <p>Don't have an account? <a href="{% url 'register' %}">Register here</a>.</p>
+    
+                        <div class="message_button">
+                          <a href="dashboard.html">Login</a>
+                        </div>
+                      </ul>
+                </form>
+            </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+      <!-- footer -->
+  <div class="footer">
+
+        <div class="footer_area">
+            <div class="footer_img">
+              <img src="WhatsApp_Image_2025-07-12_at_03.27.15-removebg-preview.png" alt="">
+            </div>
+
+            <div class="footer_text">
+                <p>Apexa Corp has molded an all-around 
+                <br>client-driven experience that focuses 
+                <br>on the latest value adding market insights 
+                <br>and customizing our broad range of 
+                <br>investment opportunities to meet the 
+                <br>diverse needs of high net worth and 
+                <br>institutional clients.</p>
+              </div>
+
+              <div class="contact_area">
+                <p>	Contact E-Mail:</p>
+                <p>support@apexacorps.com</p>
+              </div>
+
+              <div class="office">
+                <h1>Office Address:</h1>
+                <p>55 Bay St N, Hamilton, ON L8R 3P7, <br> Canada.</p>
+              </div>
+        </div>
+
+
+        <div class="footer_service">
+            <div>
+              <h1>Our Services</h1>
+            </div>
+
+            <h5>Home</h5>
+            <h5>About Us</h5>
+            <h5>Contact Us</h5>
+            <h5>Faq's</h5>
+        </div>
+
+
+        <div class="footer_Apexa">
+
+            <div>
+              <h1>Apexa Corp</h1>
+            </div>
+
+          <p>Business Number (BN): 813091170. Click 
+          <br>The Link Below To View Our Ontario 
+          <br>Business Corporation Information.</p>
+          
+          <div class="button">
+            <button>Certificate</button>
+          </div>
+
+
+
+        </div>
+  </div>
+
+    <script src="sign_in.js"></script>
+</body>
+</html>

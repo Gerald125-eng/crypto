@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask for Withdrawal</title>
+   <link rel="stylesheet" href="withdraw.css">
+</head>
+<body>
+
+    <!-- header_dashboard -->
+    <div class="header_dashboard">
+        <img src="OIP-removebg-preview (1).png" alt="" class="OIP-removebg">
+        <img src="icons8-close-50.png" alt="" class="icons8-close">
+    </div>
+
+    <div class="container">
+        <h2>Ask for Withdrawal</h2>
+        <p><strong>Account Balance:</strong> $sat0.00</p>
+        <p><strong>Pending Withdrawals:</strong> 0</p><table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Processing</th>
+                <th>Available</th>
+                <th>Pending</th>
+                <th>Account</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="radio" name="crypto" value="BTC"></td>
+                <td><img src="btc-icon.png" alt="BTC" width="30"></td>
+                <td class="success">$sat0.00</td>
+                <td class="danger">$0.00</td>
+                <td><a href="#" class="link">not set</a></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="crypto" value="ETH"></td>
+                <td><img src="eth-icon.png" alt="ETH" width="30"></td>
+                <td class="success">$0.00</td>
+                <td class="danger">$0.00</td>
+                <td><a href="#" class="link">not set</a></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="crypto" value="USDT"></td>
+                <td><img src="usdt-icon.png" alt="USDT" width="30"></td>
+                <td class="success">$0.00</td>
+                <td class="danger">$0.00</td>
+                <td><a href="#" class="link">not set</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <label for="amount">Withdrawal $</label>
+        <input type="number" id="amount" class="form-control" placeholder="0.00">
+        <button type="submit" class="btn">Request</button>
+    </form>
+
+
+    <div class="buger_2">
+            <div class="img_section_2">
+               <br>
+                <img src="./dt-avatar.png" alt="">
+                <br>
+                <h3>Jorge</h3>
+                <br>
+                <p><a href="dashboard.html">DASHBOARD</a></p>
+                <br>
+                <p><a href="deposit.html">INVEST</a></p>
+                <br>
+                <p><a href="withdraw.html">WITHDREW</a></p>
+                <br>
+                <p><a href="ref_cashout.html">CASHOUT HISTORY</a></p>
+                <br>
+                <p><a href="my_refferal.html">MY REFERRAL</a></p>
+                <br>
+                <p><a href="ref_cashout.html">REF.CASHOUT</a></p>
+                <br>
+                <p><a href="account_setting.html">ACCOUNT SETTINGS</a></p>
+                <br>
+                <p><a href="account_security.html">ACCOUNT SECURITY</a></p>
+                <br>
+                <p><a href="Sign_Out.html">SIGN OUT</a></p>
+            
+                
+            </div>
+      </div>
+
+    <footer>
+        Copyright &copy; All Right Reserved
+    </footer>
+</div>
+
+<script src="withdraw.js"></script>
+
+</body>
+</html>
