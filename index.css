@@ -129,17 +129,29 @@ nav a:hover{
 }
 
 .overlay-content h1{
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-top: 10rem;
 }
 
 .overlay-content {
-    top: 10rem;
+  top: 0;
   position: relative;
   z-index: 1;
   color: white;
   text-align: center;
   padding-top: 20vh;
 }
+
+
+
+
+@media (min-width : 320px) and  (max-width: 1024px){
+   
+}
+
+
+
+
 
 .sign_in_button{
     padding: 3rem;
@@ -450,12 +462,32 @@ nav a:hover{
     gap: 10px;
 }
 
+.plans h3{
+    font-size: 30px;
+}
+
+span{
+    font-size: 15px;
+}
+
+
+
+.plans h2{
+    margin-top: 2rem;
+}
+
 .plans div{
     width: 290px;
     height: 560px;
     background: white;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(100, 99, 99);
+}
+
+.plans div:hover{
+    background: #2c2c2c;
+    transition: 0.5s ease-in-out;
+    color: white;
 }
 
 
@@ -492,7 +524,7 @@ nav a:hover{
 
     .plans div{
         width: 280px;
-        height: 500px;
+        height: 580px;
         background: white;
         border-radius: 10px;
         box-shadow: 5px 5px 15px rgb(23, 7, 7);
@@ -533,11 +565,7 @@ nav a:hover{
     gap: 20px;
 }
 
-.method_OF_payment div{
-    width: 350px;
-    height: 400px;
-    /* background: #ded3d3; */
-}
+
 
 
 
@@ -554,18 +582,14 @@ nav a:hover{
     }
     .payment{
         height: fit-content;
-        padding: 3rem;
+        padding: 1rem;
+        margin-top: 5rem;
     }
     .method_OF_payment div img{
         width: 300px;
         height: 220px;
     }
-    .method_OF_payment div h2{
-    margin-right: 10px;
-    }
-    .method_OF_payment div p{
-    margin-right: 5px;
-    }
+    
 }
 
 @media (min-width : 768px) and  (max-width: 1024px){
@@ -789,11 +813,55 @@ nav a:hover{
         display: flex;
         flex-wrap: wrap;
     }
+    .footer_service h1{
+    padding: 0;
+    color: white;
+}
+
+.footer_service h5{
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    margin-left: 0;
+}
+
+.footer_Apexa h1{
+    padding: 0;
+    color: white;
+}
+
+.footer_Apexa p{
+    margin-top: 0.5rem;
+    padding: 0;
+    line-height: 1.5rem;
+    margin-left: 0;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.button button{
+    margin-left: 0;
+    padding: 1rem 5rem;
+    border-radius: 1em;
+    background: rgb(231, 138, 31);
+}
 }
 
 
+.button button{
+    margin-left: 1.5rem;
+    border: none;
+    padding: 1rem 5rem;
+    border-radius: 1em;
+    background: rgb(231, 138, 31);
+}
 
-
+.button button:hover{
+    border: orange solid 2px;
+    background: transparent;
+    color: orange;
+    transition: 1s ease;
+}
 
 
 

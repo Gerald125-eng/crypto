@@ -157,6 +157,7 @@
     padding: 8px 30px;
     background:blue;
     font-size: 10px;
+    border-radius: 0.8rem;
     text-decoration: none;
     color: aliceblue;
 }
@@ -179,7 +180,7 @@
 
 .container{
     width: 80%;
-    height: 100vh;
+    height: fit-content;
     display: flex;
     /* background: #000; */
     /* padding: 15px 15px; */
@@ -187,6 +188,7 @@
 }
 
 .total{
+    width: 100%;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
@@ -199,6 +201,7 @@
 .total div{
     width: 250px;
     height: 80px;
+    border-radius: 1rem;
     background:white;
     border: solid 1px black;
 }
@@ -216,6 +219,10 @@
 .profile div p{
   flex: content;
   text-align: center;
+}
+
+.total p{
+    margin-top: 10px;
 }
 
 
@@ -251,13 +258,17 @@
     }
 
     .account .total div{
-        width: 150px;
-        height: 50px;
+        width: 120px;
+        height: 80px;
         background:white;
     }
 
     .total{
+        width: 100%;
         flex-wrap: wrap;
+    }
+    .total h4{
+        font-size: 13px;
     }
 
     .container .account .plans div{
@@ -277,6 +288,7 @@
         height: fit-content;
         padding: 2rem;
     }
+
     
 }
 

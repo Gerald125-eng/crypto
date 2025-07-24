@@ -132,11 +132,30 @@ nav a:hover{
     gap: 20px;
 }
 
-.our_mission div{
-    width: 300px;
-    height: 300px;
+.our_mission_div{
+    width: 320px;
+    height: 250px;
     border: solid black 2px;
     box-shadow: 5px 5px 15px rgb(23, 7, 7);
+}
+
+.our_mission_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_mission_div img{
+    width: 3rem;
+}
+
+.our_mission_div p{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+.our_mission_div span{
+    font-size: 1.3rem;
 }
 
 
@@ -147,14 +166,17 @@ nav a:hover{
         height: fit-content;
     }
 
-    .our_mission div{
-        width: 200px;
+    .our_mission_div{
+        width: 320px;
         height: 200px;
         border: solid black 2px;
     }
 }
 
 
+
+
+/* contact_us_forms */
 .form input{
     width: 400px;
     display: flex;
@@ -191,9 +213,16 @@ nav a:hover{
 
 .contact_us_forms{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 5rem;
 }
+
+.contact_us_forms_text h1{
+    font-size: 3rem;
+    color: rgb(4, 73, 4);
+}
+
 
 @media (min-width : 320px) and  (max-width: 1024px){
     .forms_container{
@@ -201,22 +230,32 @@ nav a:hover{
         height: fit-content;
     }
     .form input{
-        width: 300px;
+        width: 280px;
         height: 30px;
     }
     
     #text{
-        width: 300px;
+        width: 280px;
         height: 30px;
     }
     
     .forms textarea{
-        width: 300px;
+        width: 280px;
     }
     .contact_us_forms{
         flex-wrap: wrap;
         display: flex;
-    }
+    }  
+    .contact_us_forms_text h1{
+    font-size: 2rem;
+    color: rgb(4, 73, 4);
+   }
+
+   .contact_us_forms{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
 }
 
 
@@ -288,9 +327,17 @@ nav a:hover{
 
 .button button{
     margin-left: 1.5rem;
+    border: none;
     padding: 1rem 5rem;
     border-radius: 1em;
     background: rgb(231, 138, 31);
+}
+
+.button button:hover{
+    border: orange solid 2px;
+    background: transparent;
+    color: orange;
+    transition: 1s ease;
 }
 
 @media (min-width : 320px) and  (max-width: 1024px){

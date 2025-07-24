@@ -218,6 +218,7 @@ nav a:hover{
     border-radius: 0.5rem;
     border: rgb(99, 97, 97) solid 1px;
     transition: help_container_ 5s ease;
+    color: rgb(8, 106, 145);
 }
 
 .help_container_2 p{
@@ -267,6 +268,7 @@ nav a:hover{
     border-radius: 0.5rem;
     border: rgb(99, 97, 97) solid 1px;
     transition: help_container_ 5s ease;
+    color: rgb(8, 106, 145);
 }
 
 
@@ -298,6 +300,7 @@ nav a:hover{
     border-radius: 0.5rem;
     border: rgb(99, 97, 97) solid 1px;
     transition: help_container_ 5s ease;
+    color: rgb(8, 106, 145);
 }
 
 
@@ -329,6 +332,7 @@ nav a:hover{
     border-radius: 0.5rem;
     border: rgb(99, 97, 97) solid 1px;
     transition: help_container_ 5s ease;
+    color: rgb(8, 106, 145);
 }
 
 /* help_container_9 */
@@ -359,6 +363,7 @@ nav a:hover{
     border-radius: 0.5rem;
     border: rgb(99, 97, 97) solid 1px;
     transition: help_container_ 5s ease;
+    color: rgb(8, 106, 145);
 }
 
 .help_container_4 p{
@@ -385,7 +390,7 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    width: 22rem;
+    width: 20rem;
     color: #686767;
     height: 3rem;
     border-radius: 0.5rem;
@@ -397,7 +402,7 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    width: 22rem;
+    width: 20rem;
     color: #686767;
     height: 9rem;
     border-radius: 0.5rem;
@@ -431,7 +436,7 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    width: 22rem;
+    width: 20rem;
     color: #686767;
     height: 3rem;
     border-radius: 0.5rem;
@@ -443,7 +448,7 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    width: 22rem;
+    width: 20rem;
     color: #686767;
     height: 9rem;
     border-radius: 0.5rem;
@@ -476,7 +481,7 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    width: 22rem;
+    width: 20rem;
     color: #686767;
     height: 3rem;
     border-radius: 0.5rem;
@@ -488,7 +493,7 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    width: 22rem;
+    width: 20rem;
     color: #686767;
     height: 9rem;
     border-radius: 0.5rem;
@@ -521,7 +526,7 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    width: 22rem;
+    width: 20rem;
     color: #686767;
     height: 3rem;
     border-radius: 0.5rem;
@@ -533,7 +538,7 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    width: 22rem;
+    width: 20rem;
     color: #686767;
     height: 9rem;
     border-radius: 0.5rem;
@@ -566,7 +571,7 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    width: 22rem;
+    width: 20rem;
     color: #686767;
     height: 3rem;
     border-radius: 0.5rem;
@@ -578,7 +583,7 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    width: 22rem;
+    width: 20rem;
     color: #686767;
     height: 9rem;
     border-radius: 0.5rem;
@@ -596,6 +601,9 @@ nav a:hover{
     }
 
     .help_container_9 h2{
+        font-size: 20px;
+    }
+    .img_help h2{
         font-size: 20px;
     }
     .help_container_9 img{
@@ -675,9 +683,17 @@ nav a:hover{
 
 .button button{
     margin-left: 1.5rem;
+    border: none;
     padding: 1rem 5rem;
     border-radius: 1em;
     background: rgb(231, 138, 31);
+}
+
+.button button:hover{
+    border: orange solid 2px;
+    background: transparent;
+    color: orange;
+    transition: 1s ease;
 }
 
 @media (min-width : 320px) and  (max-width: 1024px){

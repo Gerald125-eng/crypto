@@ -184,20 +184,17 @@ header{
 
 
 
-/* Footer */
-footer {
-    /* text-align: center; */
-    margin-top: 20px;
-    padding: 10px;
-    background: #0dfde9;
-    color: white;
-    border-radius: 5px;
+.content_container{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 
 
 
 .container {
+    
     max-width: 1000px;
     margin: 100px auto;
     padding: 20px;
@@ -212,11 +209,7 @@ h1 {
     color: #444;
 }
 
-.content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
+
 .content{
     padding: 1rem;
     /* margin-left: 15rem; */
@@ -352,9 +345,17 @@ color: white;
 
 .button button{
     margin-left: 1.5rem;
+    border: none;
     padding: 1rem 5rem;
     border-radius: 1em;
     background: rgb(231, 138, 31);
+}
+
+.button button:hover{
+    border: orange solid 2px;
+    background: transparent;
+    color: orange;
+    transition: 1s ease;
 }
 
 @media (min-width : 320px) and  (max-width: 1024px){

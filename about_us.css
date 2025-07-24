@@ -237,6 +237,7 @@ body{
     left: 400px;
     font-size: 20px;
     text-decoration: none;
+     border-radius: 10px;
 }
 
 .our_world a:hover{
@@ -249,7 +250,8 @@ body{
 @media (min-width : 320px) and  (max-width: 1024px){
     .our_world h1{
         left: 0%;
-        font-size: 30px;
+        left: 1rem;
+        font-size: 20px;
     }
     .our_world a{
         left: 0%;
@@ -260,16 +262,26 @@ body{
         height: fit-content;
     }
     
+    .our_world img{
+        height: fit-content;
+    }
     .our_world a{
     position: absolute;
     top: 75%;
-    padding: 15px 25px;
+    padding: 10px 20px;
     background: blue;
     color: white;
     left: 20px;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     }
+}
+
+@media (min-width : 720px) and  (max-width: 1024px){
+  .our_world h1 {
+    font-size: 3rem;
+    top: 30%;
+  }
 }
 
 /* <!--  our_world   ends here --> */
@@ -301,6 +313,7 @@ body{
     background: blue;
     color: white;
     text-decoration: none;
+     border-radius: 10px;
 }
 
 .text a:hover{
@@ -330,6 +343,8 @@ body{
         font-size: 15px;
     }
 }
+
+
 
 /* investment end here */
 
@@ -402,9 +417,17 @@ body{
 
 .button button{
     margin-left: 1.5rem;
+    border: none;
     padding: 1rem 5rem;
     border-radius: 1em;
     background: rgb(231, 138, 31);
+}
+
+.button button:hover{
+    border: orange solid 2px;
+    background: transparent;
+    color: orange;
+    transition: 1s ease;
 }
 
 @media (min-width : 320px) and  (max-width: 1024px){
