@@ -58,3 +58,49 @@ icons8_close.addEventListener('click', () =>{
     OIP_removebg.style.display = "block"
     icons8_close.style.display = "none"
 })
+
+
+
+
+
+const slidess = document.querySelectorAll('.hero-slide');
+    let currentIndex = 0;
+
+    setInterval(() => {
+      slidess[currentIndex].classList.remove('active');
+      currentIndex = (currentIndex + 1) % slidess.length;
+      slidess[currentIndex].classList.add('active');
+    }, 3000);
+
+
+
+
+
+const investors = [
+    { name: "John", country: "USA", amount: "$1,200" },
+    { name: "Fatima", country: "UAE", amount: "$2,500" },
+    { name: "Kofi", country: "Ghana", amount: "$750" },
+    { name: "Chen", country: "China", amount: "$3,000" },
+    { name: "Anna", country: "Germany", amount: "$980" },
+    { name: "Ngozi", country: "Nigeria", amount: "$1,500" },
+    { name: "Carlos", country: "Brazil", amount: "$2,100" }
+  ];
+
+let r = 0;
+const box = document.getElementById('investmentBox');
+
+function showInvestorNotification() {
+    const investor = investors[r];
+    box.textContent = `${investor.name} from ${investor.country} just invested ${investor.amount}!`;
+    box.classList.add('show');
+
+    // Hide after 2.5s to leave time for transition
+    setTimeout(() => {
+      box.classList.remove('show');
+    }, 2500);
+
+    r = (r + 1) % investors.length;
+  }
+
+  setInterval(showInvestorNotification, 4000); // every 3s
+

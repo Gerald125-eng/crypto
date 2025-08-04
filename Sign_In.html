@@ -1,14 +1,14 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./Sign_In.css">
+    <link rel="stylesheet" href="./Sign_Up.css">
 </head>
 <body>
 
-    <!-- header -->
+   <!-- header -->
   <div class="header">
 
        <div class="logo">
@@ -16,7 +16,7 @@
        </div>
 
        <nav>
-        <a href="index.html">Home</a>
+         <a href="index.html">Home</a>
          <a href="about_us.html">About</a>
          <a href="Sign_In.html">Login</a>
          <a href="Sign_Up.html">Signup</a>
@@ -38,49 +38,44 @@
          <a href="Sign_Up.html">Signup</a>
          <a href="help.html">Help</a>
          <a href="contact.html">Contact us</a>
-       </nav>
+  </nav>
 
     <div class="container">
         <h1 class="">Register With Us</h1>
         <div class="content">
+        
+          <div class="content_container"> 
+            
+              <div class="contact-details">
+                  <img src="./_0c78e652-4069-4d16-96c5-e8652db56bb6.jpg" alt="">
+              </div>
 
-          <div class="content_container">
-             
-            <div class="contact-details">
-                <img src="./_0c78e652-4069-4d16-96c5-e8652db56bb6.jpg" alt="">
-            </div>
+            
+              <div class="contact-form">
 
-           
-            <div class="contact-form">
+                  <h2>Register</h2>
+                  <br>
+                  <br>
+                  <form method="POST">
+                
+                      <label for="name">Username</label>
+                      <input type="text" id="username" name="username" placeholder="Your username" required>
 
-                <h2>SIGN IN</h2>
-                <br>
-                <br>
-                <form method="POST">
+                      <label for="name">Password</label>
+                      <input type="text" id="password" name="password" placeholder="Your password" required>
 
-                    <label for="name">Username</label>
-                    <input type="text" id="username" name="username" placeholder="Your username" required>
-
-                    <label for="name">Password</label>
-                    <input type="text" id="password" name="password" placeholder="Your password" required>
-                      <br>
-                      <br>
-                    <ul class="Message">
-                            
-                        <p>Don't have an account? <br><a href="{% url 'register' %}">Register here</a>.</p>
-    
-                        <div class="message_button">
-                          <a href="dashboard.html">Login</a>
+                  
+                    <br><br>
+                      <div class="message_button">
+                            <a href="Sign_Out.html">Logout</a>
                         </div>
-                      </ul>
-                </form>
-            </div>
+                  </form>
+              </div>
           </div>
                 
             </div>
         </div>
     </div>
-
 
       <!-- footer -->
   <div class="footer">
@@ -143,6 +138,6 @@
         </div>
   </div>
 
-    <script src="sign_in.js"></script>
+    <script src="sign_up.js"></script>
 </body>
 </html>

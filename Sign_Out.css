@@ -166,7 +166,8 @@ form{
 
 .content_container{
     display: flex;
-    gap: 1rem;
+    width: 100%;
+   justify-content: space-between;
     flex-wrap: wrap;
 }
 

@@ -92,7 +92,6 @@ nav a:hover{
 
 
 
-
 /* General Reset */
 body {
     margin: 0;
@@ -101,12 +100,7 @@ body {
     background: #f9f9f9;
 }
 
-/* Page Container */
-.contact-page {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
+
 
 /* Header */
 header {
@@ -145,11 +139,8 @@ header{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.contact-info img {
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 10px;
-}
+
+
 
 /* Contact Form */
 .contact-form {
@@ -179,6 +170,7 @@ header{
 }
 
 .message_button a {
+    margin-top: 2rem;
     text-decoration: none;
     background: #0dfdfd;
     color: white;
@@ -202,6 +194,7 @@ header{
 
 
 .container {
+    
     max-width: 1000px;
     margin: 100px auto;
     padding: 20px;
@@ -216,11 +209,7 @@ h1 {
     color: #444;
 }
 
-.content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
+
 .content{
     padding: 1rem;
     /* margin-left: 15rem; */
@@ -240,11 +229,7 @@ h1 {
     }
 }
 
-.contact-details, .contact-form {
-    flex: 1;
-    min-width: 300px;
-    
-}
+
 
 .contact-details{
   margin-top: 5rem;
@@ -276,8 +261,8 @@ color: white;
 }
 
 .contact-details img{
-    width: 350px;
-    height: 600px;
+    width: 450px;
+    height: 650px;
 }
 
 @media (min-width : 320px) and  (max-width: 1024px){
@@ -288,12 +273,6 @@ color: white;
     .contact-details img{
         width: 300px;
         height: 600px;
-    }
-    .Message a{
-        font-size: 13px;
-    }
-    .Message p{
-        font-size: 13px;
     }
 }
 
@@ -392,18 +371,4 @@ color: white;
        font-size: 20px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
