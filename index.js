@@ -1,3 +1,5 @@
+
+
 const slides = document.querySelectorAll('.charting_area');
 let index = 0;
 
@@ -20,24 +22,7 @@ setInterval(showSlide, 2000)
 
 
 
-const images = [
-    'url("WhatsApp Image 2025-07-10 at 05.00.20.jpeg")',
-    'url("moein-ghezelbash-J0uTfdQ_Qnc-unsplash.jpg")',
-    'url("WhatsApp Image 2025-07-10 at 04.57.45.jpeg")'
-  ];
 
-  let current = 0;
-  const hero = document.getElementById("hero");
-
-  function changeBackground() {
-    hero.style.backgroundImage = images[current];
-    current = (current + 1) % images.length;
-  }
-
-  // Initial call
-  changeBackground();
-  // Change every 3 seconds
-  setInterval(changeBackground, 2000);
 
 
 
@@ -63,6 +48,7 @@ icons8_close.addEventListener('click', () =>{
 
 
 
+
 const slidess = document.querySelectorAll('.hero-slide');
     let currentIndex = 0;
 
@@ -71,6 +57,15 @@ const slidess = document.querySelectorAll('.hero-slide');
       currentIndex = (currentIndex + 1) % slidess.length;
       slidess[currentIndex].classList.add('active');
     }, 3000);
+
+
+
+
+
+
+
+
+
 
 
 
@@ -103,4 +98,3 @@ function showInvestorNotification() {
   }
 
   setInterval(showInvestorNotification, 4000); // every 3s
-

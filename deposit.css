@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
  body {
-    font-family: Arial, sans-serif;
+    font-family:  sans-serif;
     background-color: #f4f4f4;
 }
 
@@ -87,7 +87,7 @@
 .header_dashboard{
     width: 100%;
     height: 100px;
-    background: #979595;
+    background: linear-gradient( rgba(0,30,90,0.95) ,rgba(0,30,90,0.6));
     display: flex;
     align-items: center;
     padding: 2rem;
@@ -153,7 +153,7 @@
     width: 100%;
     height: fit-content;
     text-align: center;
-    /* background: #535353; */
+    background: linear-gradient( rgba(0,30,90,0.95) ,rgba(0,30,90,0.6));
 }
 .Copyright p{
     font-size: 1rem;
